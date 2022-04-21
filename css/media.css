@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1296px) {
+   
+    .header .nav_links{
+        width: 40%;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+   
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+  }
+
+  @media only screen and (max-width: 894px) {
+   
+    .container{
+        width: 98%;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+   
+    .nav_links{
+        flex-direction: column;
+        height: 90vh; 
+        justify-content: space-around;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        right: 0;
+        top: 70px;
+        width: 100vw!important;
+    }
+    .nav_begg{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+  }

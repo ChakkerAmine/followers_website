@@ -1,0 +1,254 @@
+/* Glabal  */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&family=Poppins:wght@100;200;400;600&display=swap');
+::-webkit-scrollbar { 
+    width: 0px; 
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+}
+
+a{
+    color: black;
+}
+
+/* Usefull Compenents */
+
+.btn {
+    padding: 18px 37px;
+    color: #fff;
+    background-color: #4F46BA;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container{
+    width: 83.47222222222223%;
+    margin: auto;
+}
+
+.flx{
+    display: flex;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+.jc-sa{
+    justify-content: space-around;
+}
+.al-c{
+    align-items: center;
+}
+.text-c{
+    text-align: center;
+}
+
+
+/* Start header */
+.header{
+    padding: 22px 0;
+}
+.header .nav_begg li{
+    margin-left: 45px;
+}
+.header .nav_links{
+    width: 28%;
+}
+.header .nav_links li a , .header .nav_begg li a{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.burger{
+    display: none;
+}
+.burger div{
+    width: 41px;
+    height: 2px;
+    margin: 8px 0;
+    background-color: #4f46ba;
+}
+
+main{
+    margin-top: 92px;
+}
+.text{
+    width: 523px;
+}
+.text h1, .text p ,.text img , .text button{
+    margin-bottom:33px ;
+}
+.text h1{
+    font-size: 66px;
+    line-height: 80px;
+    font-weight: bold;
+}
+.text p{
+    font-size: 18px;
+}
+.text button{
+    display: block;
+}
+.img img{
+    width: 889px;
+    margin-top: -70px;
+}
+
+.colla{
+    padding: 70px 0;
+    border-top: 1px solid #E3E6E9;
+    border-bottom: 1px solid #E3E6E9;
+}
+
+.colla h2{
+    font-size: 22px;
+}
+.collab_img{
+    margin-top: 63px;
+}
+
+
+
+.platform {
+    position: relative;
+}
+.platform .dec{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.platrform_followers{
+    padding-top: 167px;
+}
+.platrform_followers h2{
+    font-size: 40px;
+    width:694px;
+}
+.item{
+    margin-top: 50px;
+}
+.item img,.item h5,.item p{
+    margin-bottom: 19px;
+}
+.item img{
+    width: 46px;
+}
+.item h5{
+    font-size: 22px;
+}
+.item p{
+    font-size: 14px;
+    width: 258px;
+
+}
+
+
+
+.followers .followers_text{
+    padding-top: 206px;
+    width: 555px;
+    position: relative;
+
+}
+.followers_text h2,.followers_text p , .followers_text button{
+    margin-bottom: 29px;
+}
+.followers .followers_text h2{
+    font-size: 55px;
+}
+.followers .followers_text p{
+    font-size: 18px;
+}
+.followers_text img{
+    position: absolute;
+
+    margin-left: 57px;
+    margin-top: -20px;
+}
+.followers_img img{
+    width: 795px;
+}
+
+.note{
+    overflow: hidden;
+    overflow-x: auto;
+   */                                                                         
+}
+
+.testimonial span{
+    display: block;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Pallet 4 / Primary */
+    color: #3734A9;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.testimonial h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 64px;
+    /* or 119% */
+    text-align: center;
+    width: 533px;
+    margin: auto;
+}
+
+
+.testimonial_item{
+    min-width:383px;
+    position: relative;
+    background: #FFFFFF;
+border: 1px solid #EDEDED;
+box-sizing: border-box;
+box-shadow: 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+    padding: 61px;
+    margin-top: 41px;
+}
+.testimonial_item img,.testimonial_item p{
+    display: block;
+    margin-bottom: 19px;
+}
+.testimonial_item .shape{
+    position: absolute;
+    top: -28px;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #E3E6E9;
+}
+.user{
+    margin-top: 20px;
+}
+.user img{
+    margin-right: 19px;
+    width: 50px;
+}
+
+.test{
+    height: 100vh;
+}
